@@ -520,7 +520,6 @@ initTLSNginxConfig() {
 		# 启动nginx
 		handleNginx start
 		echoContent yellow "\n检查IP是否设置为当前VPS"
-		checkIP
 		# 测试nginx
 		echoContent yellow "\n检查Nginx是否正常访问"
 		sleep 0.5
